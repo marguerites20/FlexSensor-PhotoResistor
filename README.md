@@ -20,8 +20,10 @@ Potential Applications:
 - Robotics
 - VR equipment
 
-DEMO: 
+Interface Diagram:
+![image](https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/831caffc-bcc0-4ec1-bcfd-e73711961660)
 
+DEMO: https://youtube.com/shorts/1NMFAQ1FsDk
 
 <img width="418" alt="Screenshot 2024-03-19 at 2 09 45 PM" src="https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/7463fe23-b0e6-4b47-b8d1-0c6859656632">
 
@@ -36,6 +38,12 @@ Potential Applications:
 - Solar Panels
 - Street Lights
 - Smartphone screens
+
+Interface Diagram:
+![Screenshot 2024-04-01 at 8 56 49 PM](https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/59f05fc5-91e5-464a-afca-02a69c76bfc6)
+
+
+
 
 DEMO:
   
