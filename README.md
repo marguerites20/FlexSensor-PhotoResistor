@@ -43,6 +43,7 @@ Potential Applications:
 
 Interface Diagram:
 
+
 ![Screenshot 2024-04-01 at 8 56 49 PM](https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/59f05fc5-91e5-464a-afca-02a69c76bfc6)
 
 
