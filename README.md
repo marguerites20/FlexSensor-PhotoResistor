@@ -61,6 +61,7 @@ Photoresistors have a semiconductive surface. Electrons start to move when light
 - Smartphone screens
 
 **Interface Diagram:**
+
 ![Photoresistor Interface Diagram](https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/59f05fc5-91e5-464a-afca-02a69c76bfc6)
 
 ### DEMO
