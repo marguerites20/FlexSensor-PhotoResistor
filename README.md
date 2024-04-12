@@ -49,13 +49,6 @@ In the `FlexSensor.c` code, macros from the `IO_Macros.h` file were not utilized
 ### Introduction
 Photoresistors, or light-dependent resistors (LDRs), exhibit changes in resistance based on light intensity. Composed of a semiconductive material, these resistors become more conductive when exposed to light and less conductive in darkness.
 
-### Components
-- Photoresistor
-- LED
-- Wires
-- Arduino Uno R3
-- Resistors
-
 ### Datasheet
 - [Photoresistor Datasheet](https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/SEN-09088.pdf)  
 
@@ -71,6 +64,13 @@ Photoresistors, or light-dependent resistors (LDRs), exhibit changes in resistan
 - Solar Panels
 - Street Lights
 - Smartphone screens
+
+### Components
+- Photoresistor
+- LED
+- Wires
+- Arduino Uno R3
+- Resistors
 
 ### Interface Diagram
 ![Photoresistor Interface Diagram](https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/59f05fc5-91e5-464a-afca-02a69c76bfc6)
