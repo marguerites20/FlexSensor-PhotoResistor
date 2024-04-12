@@ -33,6 +33,8 @@ Interface Diagram:
 
 DEMO: https://youtube.com/shorts/1NMFAQ1FsDk
 
+This demo shows the flex sensor bending, and the LED decreasing in brightness to increasing degrees of bend.
+
 ***
 
 **Datasheet:**
@@ -63,5 +65,7 @@ Interface Diagram:
 ***
 
 DEMO: https://www.youtube.com/shorts/9hsHc4YJ9Aw 
+
+This demo shows the LED turning off when the photocell detects little or no light, and the LED turning on when the photocell senses ambient light.
 
  
