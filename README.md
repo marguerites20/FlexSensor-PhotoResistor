@@ -9,13 +9,6 @@ This project interfaces both a Flex Sensor and a Photoresistor on the Arduino Un
 ### Introduction
 Flex sensors are flexible devices capable of changing resistance in response to bending. Typically composed of a conductive ink layer on a flexible substrate, these sensors exhibit increased resistance as they bend.
 
-### Components
-- Flex Sensor
-- LED
-- Wires
-- Arduino Uno R3
-- Resistors
-
 ### Datasheet
 - [Flex Sensor Datasheet](https://www.sparkfun.com/datasheets/Sensors/Flex/flex22.pdf)  
 
@@ -31,6 +24,13 @@ Flex sensors are flexible devices capable of changing resistance in response to 
 - Prosthetics
 - Robotics
 - VR equipment
+
+### Components
+- Flex Sensor
+- LED
+- Wires
+- Arduino Uno R3
+- Resistors
 
 ### Interface Diagram
 ![Flex Sensor Interface Diagram](https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/831caffc-bcc0-4ec1-bcfd-e73711961660)
