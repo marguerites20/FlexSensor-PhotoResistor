@@ -40,6 +40,8 @@ DEMO: https://youtube.com/shorts/1NMFAQ1FsDk
 
 <img width="418" alt="Screenshot 2024-03-19 at 2 09 45 PM" src="https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/7463fe23-b0e6-4b47-b8d1-0c6859656632">
 
+***
+
 Photoresistors have a semiconductive surface. Electons start to move when light is shown on the material, changing the conductivity and then the resistance.
 - Light Resistance = 8-20 kΩ
 - Dark Resistance = 1 MΩ
