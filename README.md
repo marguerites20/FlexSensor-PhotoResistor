@@ -2,11 +2,16 @@
 
 This project interfaces both a Flex Sensor and a Photoresistor on the Arduino Uno, using C programming. Both Arduino IDE and C code are included for the interfaces. 
 
+***
+
 **Datasheets:**
 - Flex Sensor: https://www.sparkfun.com/datasheets/Sensors/Flex/flex22.pdf 
 - Photoresistor: https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/SEN-09088.pdf
 
 <img width="366" alt="Screenshot 2024-03-19 at 2 09 35 PM" src="https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/810422f2-584c-49a0-aa4f-f394cb02c3e5">
+
+
+***
 
 Flex sensors have a layer of conductive ink on one side, and as the sensor bends the particles separate, increasing the resistance.
 - Flat Resistance = 25 kΩ
@@ -15,6 +20,8 @@ Flex sensors have a layer of conductive ink on one side, and as the sensor bends
 
 <img width="628" alt="Screenshot 2024-03-19 at 2 06 55 PM" src="https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/68bdbe76-3e5a-489e-87c5-1f6c567287f9">
 
+***
+
 Potential Applications:
 - Prosthetics
 - Robotics
@@ -22,6 +29,8 @@ Potential Applications:
 
 Interface Diagram:
 ![image](https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/831caffc-bcc0-4ec1-bcfd-e73711961660)
+
+***
 
 DEMO: https://youtube.com/shorts/1NMFAQ1FsDk
 
@@ -36,17 +45,18 @@ Photoresistors have a semiconductive surface. Electons start to move when light 
 
 <img width="570" alt="Screenshot 2024-03-19 at 2 07 11 PM" src="https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/a537ebcd-1bd4-4c1e-a473-658043cf4d55">
 
+***
+
 Potential Applications:
 - Solar Panels
 - Street Lights
 - Smartphone screens
 
-  
-
 Interface Diagram:
 
-
 ![Screenshot 2024-04-01 at 8 56 49 PM](https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/59f05fc5-91e5-464a-afca-02a69c76bfc6)
+
+***
 
 DEMO: https://www.youtube.com/shorts/9hsHc4YJ9Aw 
 
