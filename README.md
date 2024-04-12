@@ -6,81 +6,78 @@ This project interfaces both a Flex Sensor and a Photoresistor on the Arduino Un
 
 ## Flex Sensor
 
-**Introduction:**  
-Flex sensors are flexible devices that change resistance based on the amount of bending they experience. They typically consist of a layer of conductive ink deposited on a flexible substrate. As the sensor bends, the conductive particles within the ink separate, increasing the resistance along the sensor's length. This change in resistance can be measured and used to determine the degree of bending.
+### Introduction
+Flex sensors are flexible devices capable of changing resistance in response to bending. Typically composed of a conductive ink layer on a flexible substrate, these sensors exhibit increased resistance as they bend.
 
-**Components:**
+### Components
 - Flex Sensor
 - LED
 - Wires
 - Arduino Uno R3
 - Resistors
 
-**Datasheet:**  
+### Datasheet
 - [Flex Sensor Datasheet](https://www.sparkfun.com/datasheets/Sensors/Flex/flex22.pdf)  
-![Flex Sensor](https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/810422f2-584c-49a0-aa4f-f394cb02c3e5)
 
-Flex sensors have a layer of conductive ink on one side, and as the sensor bends, the particles separate, increasing the resistance.
+![Flex Sensor](https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/810422f2-584c-49a0-aa4f-f394cb02c3e5)
 
 - Flat Resistance: 25 kΩ
 - Max Bend Resistance: 125 kΩ
-- Cost: $10.80/unit
+- Price: $10.80/unit
 
 ![Flex Sensor Image](https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/68bdbe76-3e5a-489e-87c5-1f6c567287f9)
 
-**Potential Applications:**
+### Potential Applications
 - Prosthetics
 - Robotics
 - VR equipment
 
-**Interface Diagram:**
+### Interface Diagram
 ![Flex Sensor Interface Diagram](https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/831caffc-bcc0-4ec1-bcfd-e73711961660)
 
-### DEMO
+#### DEMO
 [Flex Sensor Demo](https://youtube.com/shorts/1NMFAQ1FsDk)  
-This demo shows the flex sensor bending, and the LED decreasing in brightness to increasing degrees of bend.
+This demo showcases the LED decreasing in brightness in response to increasing degrees of bend of the flex sensor.
 
-**Why Macros Were Not Used:**  
-In the `FlexSensor.c` code, macros from the `IO_Macros.h` file were not used for interfacing the Flex Sensor due to compatibility issues or conflicts with existing code or macros. Instead, direct register manipulation and bit masking were utilized to configure pin directions and read analog values. While macros can provide abstraction and improve code readability, in this case, relying on direct register manipulation offered better compatibility with the existing codebase and avoided potential conflicts with other macros or configurations.
+### Why Macros Were Not Used
+In the `FlexSensor.c` code, macros from the `IO_Macros.h` file were not utilized for interfacing the Flex Sensor due to compatibility issues or conflicts with existing code or macros. Direct register manipulation and bit masking were instead employed to configure pin directions and read analog values. While macros can enhance code readability, in this instance, relying on direct register manipulation provided better compatibility with the existing codebase and avoided potential conflicts.
 
 ---
 
 ## Photoresistor
 
-**Introduction:**  
-Photoresistors, also known as light-dependent resistors (LDRs), are devices whose resistance changes in response to light intensity. They consist of a semiconductive material that becomes more conductive when exposed to light and less conductive in darkness. This change in conductivity alters the resistance of the material, which can be measured and used for various applications.
+### Introduction
+Photoresistors, or light-dependent resistors (LDRs), exhibit changes in resistance based on light intensity. Composed of a semiconductive material, these resistors become more conductive when exposed to light and less conductive in darkness.
 
-**Components:**
+### Components
 - Photoresistor
 - LED
 - Wires
 - Arduino Uno R3
 - Resistors
 
-**Datasheet:**  
+### Datasheet
 - [Photoresistor Datasheet](https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/SEN-09088.pdf)  
-![Photoresistor](https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/7463fe23-b0e6-4b47-b8d1-0c6859656632)
 
-Photoresistors have a semiconductive surface. Electrons start to move when light is shone on the material, changing the conductivity and then the resistance.
+![Photoresistor](https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/7463fe23-b0e6-4b47-b8d1-0c6859656632)
 
 - Light Resistance: 8-20 kΩ
 - Dark Resistance: 1 MΩ
-- Cost: $1.10/unit
+- Price: $1.10/unit
 
 ![Photoresistor Image](https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/a537ebcd-1bd4-4c1e-a473-658043cf4d55)
 
-**Potential Applications:**
+### Potential Applications
 - Solar Panels
 - Street Lights
 - Smartphone screens
 
-**Interface Diagram:**
-
+### Interface Diagram
 ![Photoresistor Interface Diagram](https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/59f05fc5-91e5-464a-afca-02a69c76bfc6)
 
-### DEMO
+#### DEMO
 [Photoresistor Demo](https://www.youtube.com/shorts/9hsHc4YJ9Aw)  
-This demo shows the LED turning off when the photocell detects little or no light, and the LED turning on when the photocell senses ambient light.
+This demo illustrates the LED turning off when the photocell detects very little or no light, and the LED turning on when the photocell senses ambient light.
 
 ---
 
