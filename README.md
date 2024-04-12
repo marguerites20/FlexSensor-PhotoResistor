@@ -67,7 +67,58 @@ Photoresistors have a semiconductive surface. Electrons start to move when light
 [Photoresistor Demo](https://www.youtube.com/shorts/9hsHc4YJ9Aw)  
 This demo shows the LED turning off when the photocell detects little or no light, and the LED turning on when the photocell senses ambient light.
 
-The challenge of this project was to interface the photocell in C. In the `Photocell.C` code, macros were used to abstract pin configurations and register manipulations, enhancing code readability and maintainability. By defining macros such as `PinMode`, `DigitalWrite`, and `DigitalRead`, the code becomes more expressive and closely resembles the syntax used in popular development platforms like the Arduino IDE. This abstraction hides the complexities of direct AVR register manipulation, making it easier for developers to understand and modify the code. Additionally, macros provide a centralized location to manage pin configurations, reducing the risk of errors and inconsistencies. However, the use of macros can introduce overhead and complexity, especially in larger projects with many macros. Macros may also require additional documentation to explain their purpose and usage. Despite these drawbacks, the benefits of improved code readability and maintainability often outweigh the cons, making macros a valuable tool in embedded systems development.
+---
 
+## Installation Instructions with AVR Toolchain
+
+To compile and upload the programs to your AVR microcontroller, you'll need to set up the AVR toolchain on your system. Follow the steps below to download and install the necessary software:
+
+1. **Download AVRDUDE:**
+   - Visit the following link: [AVR-GCC Toolchain Installation Guide](https://tinusaur.com/guides/avr-gcc-toolchain/)
+   - Follow the instructions provided to download and install AVRDUDE on your system. It's recommended to use a Windows system for ease of use.
+
+2. **Verify Installation:**
+   - Once the installation is complete, open your command prompt.
+   - Type the following commands to check if you have installed the software correctly:
+     ```
+     avr-gcc -v
+     avrdude -v
+     avr-objcopy -V
+     ```
+
+### Compilation Process
+
+Follow these steps to compile and upload the programs to your AVR microcontroller:
+
+1. **Navigate to Source Code Directory:**
+   - Change the directory in your command prompt to where you have downloaded the source code files.
+
+2. **Identify COM Port:**
+   - Check the COM port on which your Arduino is programmed. Make a note of this port number.
+
+3. **Compile Source Code:**
+   - Type the following command to compile the source code:
+     ```
+     c:\avr-gcc-11.1.0\bin\avr-gcc.exe -Os -DF_CPU=16000000UL -mmcu=atmega328p -c -o photocell.o photocell.c
+     ```
+
+4. **Link Object Files:**
+   - Type the following command to link the object files:
+     ```
+     c:\avr-gcc-11.1.0\bin\avr-gcc.exe -mmcu=atmega328p photocell.o -o photocell
+     ```
+
+5. **Create HEX File:**
+   - Type the following command to create the HEX file:
+     ```
+     c:\avr-gcc-11.1.0\bin\avr-objcopy.exe -O ihex -R .eeprom photocell photocell.hex
+     ```
+
+6. **Upload to Microcontroller:**
+   - Type the following command to upload the HEX file to your AVR microcontroller:
+     ```
+     c:\avr-gcc-11.1.0\bin\avrdude.exe -patmega328p -Pcom(port#) -carduino -D -U flash:w:photocell.hex:i
+     ```
+   - Replace `com(port#)` with the COM port number identified in step 2.
 
  
