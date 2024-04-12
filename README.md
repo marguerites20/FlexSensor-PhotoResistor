@@ -9,6 +9,13 @@ This project interfaces both a Flex Sensor and a Photoresistor on the Arduino Un
 **Introduction:**  
 Flex sensors are flexible devices that change resistance based on the amount of bending they experience. They typically consist of a layer of conductive ink deposited on a flexible substrate. As the sensor bends, the conductive particles within the ink separate, increasing the resistance along the sensor's length. This change in resistance can be measured and used to determine the degree of bending.
 
+**Components:**
+- Flex Sensor
+- LED
+- Wires
+- Arduino Uno R3
+- Resistors
+
 **Datasheet:**  
 - [Flex Sensor Datasheet](https://www.sparkfun.com/datasheets/Sensors/Flex/flex22.pdf)  
 ![Flex Sensor](https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/810422f2-584c-49a0-aa4f-f394cb02c3e5)
@@ -42,6 +49,13 @@ In the `FlexSensor.c` code, macros from the `IO_Macros.h` file were not used for
 
 **Introduction:**  
 Photoresistors, also known as light-dependent resistors (LDRs), are devices whose resistance changes in response to light intensity. They consist of a semiconductive material that becomes more conductive when exposed to light and less conductive in darkness. This change in conductivity alters the resistance of the material, which can be measured and used for various applications.
+
+**Components:**
+- Photoresistor
+- LED
+- Wires
+- Arduino Uno R3
+- Resistors
 
 **Datasheet:**  
 - [Photoresistor Datasheet](https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/SEN-09088.pdf)  
@@ -115,11 +129,5 @@ Follow these steps to compile and upload the programs to your AVR microcontrolle
      c:\avr-gcc-11.1.0\bin\avr-objcopy.exe -O ihex -R .eeprom photocell photocell.hex
      ```
 
-6. **Upload to Microcontroller:**
-   - Type the following command to upload the HEX file to your AVR microcontroller:
-     ```
-     c:\avr-gcc-11.1.0\bin\avrdude.exe -patmega328p -Pcom(port#) -carduino -D -U flash:w:photocell.hex:i
-     ```
-   - Replace `com(port#)` with the COM port number identified in step 2.
+6. **Upload to Micro
 
- 
