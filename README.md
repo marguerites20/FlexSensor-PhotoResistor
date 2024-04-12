@@ -6,7 +6,6 @@ This project interfaces both a Flex Sensor and a Photoresistor on the Arduino Un
 
 **Datasheets:**
 - Flex Sensor: https://www.sparkfun.com/datasheets/Sensors/Flex/flex22.pdf 
-- Photoresistor: https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/SEN-09088.pdf
 
 <img width="366" alt="Screenshot 2024-03-19 at 2 09 35 PM" src="https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/810422f2-584c-49a0-aa4f-f394cb02c3e5">
 
@@ -35,6 +34,9 @@ Interface Diagram:
 DEMO: https://youtube.com/shorts/1NMFAQ1FsDk
 
 ***
+
+**Datasheets:**
+ - Photoresistor: https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/SEN-09088.pdf
 
 <img width="418" alt="Screenshot 2024-03-19 at 2 09 45 PM" src="https://github.com/marguerites20/FlexSensor-PhotoResistor/assets/93600413/7463fe23-b0e6-4b47-b8d1-0c6859656632">
 
