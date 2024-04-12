@@ -129,5 +129,3 @@ Follow these steps to compile and upload the programs to your AVR microcontrolle
      c:\avr-gcc-11.1.0\bin\avr-objcopy.exe -O ihex -R .eeprom photocell photocell.hex
      ```
 
-6. **Upload to Micro
-
